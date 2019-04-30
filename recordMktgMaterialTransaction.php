@@ -73,10 +73,10 @@
 
 		if(isset($_POST['updateQuantity'])) {
 		//Connect to DB
-   		$hostname = "mysql4.uni.edu";
-   		$username = "business";
-   		$password = "HwHudY5JJYIZLPRy";
-   		$dbName = "business_business";
+   		$hostname = "****";
+   		$username = "****";
+   		$password = "****";
+   		$dbName = "****";
 		
    		$con = mysqli_connect($hostname, $username, $password, $dbName);
 			
