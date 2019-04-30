@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Add Inventory | UNI CBB</title>
+<title>Add Inventory | UNI CBA</title>
 <link rel="shortcut icon" type="image/png" href="InventoryManagerImages/Icons/0.png">
 <link href="inventoryManagerStyles.css" rel="stylesheet">
 </head>
