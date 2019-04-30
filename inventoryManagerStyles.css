@@ -1,0 +1,108 @@
+/*Global Styles*/
+p, h1, h4, h6 {
+	color: #333;
+	font-family: 'Roboto Condensed', sans-serif;
+	text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}
+
+/*Buttons*/
+/*Menu Buttons*/
+.button {
+	border: 1.5px solid #333;
+	padding: 8px;
+	margin: 4px;
+	text-transform: uppercase;
+	background-color: transparent;
+}
+
+.button:hover {
+	background: #333;
+	color: #FFFFFF;
+	transition: all 0.4s;
+}
+
+/*Submit Buttons*/
+.submitBtn {
+	border: 1.5px solid #A09ECC;
+	color: #A09ECC;
+	padding: 8px;
+	margin: 1px;
+	text-transform: uppercase;
+	text-decoration: none;
+	background-color: transparent;
+}
+
+.submitBtn:hover {
+	background: #A09ECC;
+	color: #FFFFFF;
+	transition: all 0.4s;
+	text-decoration: none;
+}
+
+.submitBtn:active {
+	border: 1.5px solid #A09ECC;
+	color: #A09ECC;
+	padding: 8px;
+	margin: 1px;
+	text-transform: uppercase;
+	text-decoration: none;
+	background: #FFFFFF;
+}
+
+/*Input Type Styling*/
+input[type='text'],
+input[type='number'],
+input[type='date']
+{
+	padding: 8px;
+	border: 1.5px solid #333;
+	font-family: 'Roboto Condensed', sans-serif;
+	background-color: transparent;
+	width: 160px;
+}
+
+/*Select Dropdown Styling*/
+select{
+	-webkit-appearance: none;
+    padding: 8px;
+	width: 70.5%;
+	border: 1.5px solid #333;
+	background-color: transparent;
+}
+
+/*Tables*/
+.applyFont {
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.applyFont td, th {
+	border: 1.5px solid #333;
+}
+
+/*Keeps table headers as user views inventory*/
+.applyFont th {
+	position: sticky;
+	top: 0;
+	overflow: hidden;
+	background-color: transparent;
+}
+
+.applyFont tr:nth-child(odd) {
+  background-image: url(/InventoryManager/InventoryManagerImages/trianglify4.png);
+}
+.applyFont tr:nth-child(even) {
+  background-image: url(/InventoryManager/InventoryManagerImages/trianglify4.png);
+}
+
+#tableFilters {
+	align-content: center;
+	border: 1.5px solid #333;
+	appearance: none;
+    padding: 8px;
+	margin: 3px;
+}
+
+/*Background*/
+body {
+		background-image: url(/InventoryManager/InventoryManagerImages/trianglify4.png);
+	}
