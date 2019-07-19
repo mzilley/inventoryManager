@@ -1,5 +1,5 @@
 # inventoryManager
-An inventory manager made for my the University of Northern Iowa's college of business administration
+An inventory manager made for the University of Northern Iowa's college of business administration
 
 Inventory is split into three different categories:
 1. Apparel
